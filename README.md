@@ -51,7 +51,7 @@ A self-contained playbook for producing **publication-grade Chinese resumes** th
 
 ```powershell
 # Windows
-git clone https://github.com/2084413277/cc-resume.git
+git clone https://github.com/xiangshang2004/cc-resume.git
 cd cc-resume
 .\scripts\fetch-fonts.ps1
 Copy-Item examples\template.html my-resume.html
@@ -61,7 +61,7 @@ Copy-Item examples\template.html my-resume.html
 
 ```bash
 # macOS / Linux
-git clone https://github.com/2084413277/cc-resume.git
+git clone https://github.com/xiangshang2004/cc-resume.git
 cd cc-resume
 ./scripts/fetch-fonts.sh
 cp examples/template.html my-resume.html
