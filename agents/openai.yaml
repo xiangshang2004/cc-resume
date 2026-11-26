@@ -1,0 +1,3 @@
+interface:
+  display_name: "cc-resume"
+  short_description: "Single-page A4 Chinese resume HTML/CSS template + headless PDF export"

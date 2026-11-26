@@ -49,6 +49,14 @@ A self-contained playbook for producing **publication-grade Chinese resumes** th
 
 ## Quick start
 
+Install as an Agent Skill via [`skills.sh`](https://skills.sh):
+
+```bash
+npx skills add xiangshang2004/cc-resume
+```
+
+Or clone manually to build from template:
+
 ```powershell
 # Windows
 git clone https://github.com/xiangshang2004/cc-resume.git
@@ -78,6 +86,8 @@ Open `my-resume.pdf`. If you're at 2 pages, the skill doc has an A4-fit lever ta
 ```
 cc-resume/
 ├── SKILL.md                  ← the skill itself (load into Claude / Cursor / Cline)
+├── agents/
+│   └── openai.yaml           ← Codex UI metadata
 ├── README.md
 ├── LICENSE                   ← MIT
 ├── .gitignore
